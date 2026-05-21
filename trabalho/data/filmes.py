@@ -44,9 +44,9 @@ texto_busca = Entry(painel,width=50,bg="#502882",font=("Segoe UI",10, "bold"),fg
 texto_busca.pack(fill=X, ipadx=10,pady=10)
 
 btn_buscar = Button(painel,text="Buscar",command=mostrar_filmes,bg="#783CC8",fg="white",relief="flat", width=15,height=2,cursor="hand2")
-btn_buscar.pack(side=LEFT, expand=TRUE,fill=X,padx=5)
+btn_buscar.pack(side=LEFT, expand=TRUE,fill=X,padx=6)
 
 btn_limpar = Button(painel,text="Limpar",command=limpar_texto, bg="#783CC8",fg="white",relief="flat", width=15,height=2, cursor="hand2")
-btn_limpar.pack(side=LEFT, expand=TRUE, fill=X,padx=5)
+btn_limpar.pack(side=LEFT, expand=TRUE, fill=X,padx=6)
 
 janela.mainloop()
